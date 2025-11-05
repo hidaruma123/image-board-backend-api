@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/health", "destination": "/api/canvas?action=health" },
+    { "source": "/api/canvas/save", "destination": "/api/canvas?action=save" },
+    { "source": "/api/canvas/load/:id", "destination": "/api/canvas?action=load&id=:id" },
+    { "source": "/api/canvas/list", "destination": "/api/canvas?action=list" },
+    { "source": "/api/canvas/delete/:id", "destination": "/api/canvas?action=delete&id=:id" }
+  ]
+}

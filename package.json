@@ -1,0 +1,17 @@
+{
+  "name": "image-board-backend-vercel",
+  "version": "1.0.0",
+  "description": "Image Board Backend API for Vercel Serverless Functions",
+  "main": "api/canvas.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "image-board",
+    "vercel",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT"
+}
